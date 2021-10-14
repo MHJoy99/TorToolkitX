@@ -38,11 +38,14 @@ Following are some awesome features offered by this bot:-
 - Aria2 for direct links download.
 - Upload to gdrive by using RCLONE.
   - You can load multiple drives in the conf and can switch on fly using the settings.
-- Sorted YTDL download menu.
+- Sorted YTDLP download menu.
 - Zip and upload also available.
 - Get the server status.
-- InstaDL support
+- InstaDL support with Variables
 - Browse the settings menu and try stuff. ;)
+- Fast as Fck any video Download Support Like twitter, Tiktok, Facebook With YTDLP engine.
+- uses Custom QBT trackers and Config File
+- lots Of fixes in Master Branch 🙂
 
 # Deployment
 
@@ -258,6 +261,12 @@ Steps:-
 - `QBitTorrent Configurations`
   - To modify QBT engine Preferences ... Please check `qBittorrent.conf` in root of the repo..
   - To modify Trackers for QBT ... Please check `start.sh` file in root of the repo.. or [click here](https://github.com/XcodersHub/TorToolkitX/blob/master/start.sh#L2) to see.
+
+- `Instagram Stuff`
+  - `INSTA_UNAME` it is for instagram login put your instagram username.
+  - `INSTA_PASS`  it is for instagram login put your instagram password.
+  - without credentials instagram wont work whether post is public or private.
+  - when passing passing instagram links to bot make sure it is like `https://www.instagram.com/p/CToApjNsHql/` or like `https://www.instagram.com/p/CToApjNsHql` dont pass any flags like `https://www.instagram.com/p/CToApjNsHql/?utm_medium=copy_link`....
 
 
 
